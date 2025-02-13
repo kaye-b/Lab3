@@ -60,6 +60,7 @@ function scaleRadius(population) {
     }
 }
 ///////// Chloropleth Map ////////////
+
 // Step 1: Define the map
 // Code adapted from Leaflet Tutorial https://leafletjs.com/examples/choropleth/
 
