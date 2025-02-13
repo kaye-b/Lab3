@@ -71,7 +71,7 @@ var tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map2);
 
 // Fetch GeoJSON data and add to map with styling
-fetch('/data/states.geojson') // Adjust the path as necessary
+fetch('./data/states.geojson') // Adjust the path as necessary
     .then(response => response.json())
     .then(data => {
         geojson = L.geoJson(data, {
