@@ -1,0 +1,41 @@
+h1{color: black;
+    font-size: xx-large;
+    font-family: 'Poppins', Arial, sans-serif;
+    margin-bottom: 10px;
+    }
+    
+h2{color: black;
+    font-size: medium;
+    font-weight: lighter;
+    font-family: 'Poppins', Arial, sans-serif;
+     margin-top: 10px;
+}
+    
+/* adapted from ChatGPT 4.0 */
+header {margin-bottom: 20px; /* Adds space between the header and the map */
+    }
+    
+#density, #cities {
+    height: 60vh; /* 60% of viewport height */
+    width: 80vw;  /* 80% of viewport width */
+    max-width: 1000px;
+    max-height: 700px;
+}
+
+.info.legend {
+    background: white;
+    padding: 10px;
+    line-height: 18px;
+    color: #555;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    font-size: 14px;
+}
+    
+.info.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
